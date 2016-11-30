@@ -16,8 +16,8 @@
       </form>
 
       <ul>
-      <li> <a href="#">Browse</a> </li>
-      <li> <a href="#">Upload</a> </li>
+        <li> <a href="#">Browse</a> </li>
+        <li> <a href="#">Upload</a> </li>
       </ul>
 
       <ul>
@@ -33,7 +33,9 @@
         <a href="#"></a>
           <!-- Not sure of the proper tag to use for this population. -->
         <form action="#" method="GET">
-        <select name="videos" id="9">9 Videos</select>
+          <select name="videos" id="9">
+            <option value="9">9 videos</option>
+          </select>
         </form>
         <button>Subscribe</button>
       </header>  <!-- Closes video content header -->
@@ -41,13 +43,18 @@
 
       <video src="videofile.ogg" autoplay poster="posterimage.jpg"> </video>
 
-      <form action="#" method="GET">
+        <!-- Labeled each button. -->
       <button>Like</button>
       <button>Add To</button>
       <button>Share</button>
       <button>Embed</button>
-      <h2>uploaded by johndoe on Sept 25, 2007</h2>
-      <h3>Morpheus shows neo two pills: a blue and a red one. If Neo chooses the </h3>
+      <article class="">
+        Uploaded by
+        <a href="#">johndoe</a>
+        on Sept 26, 2007
+      </article>
+
+      <h2>Morpheus shows neo two pills: a blue and a red one. If Neo chooses the </h2>
 
           <!-- Comment section. -->
       <section>   <!-- Opens comment section.  -->
@@ -57,9 +64,12 @@
 
     <aside>
       <h2>Suggestions</h2>
-      <article class="image.jpg">
-      <a href="#"></a>
 
+      <article class="">
+        <img src="/image/youtube.jpg" alt="youtube">
+        <a href="#">How The Matrix Should Have Ended</a>
+        <p>by otheruser</p>
+        <p>4,860,784 views</p>
       </article>
 
 
